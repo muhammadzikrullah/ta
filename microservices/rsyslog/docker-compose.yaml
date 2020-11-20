@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+    rsyslog:
+        image: rsyslog
+        build:
+            context: .
